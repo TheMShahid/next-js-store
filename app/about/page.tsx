@@ -2,7 +2,7 @@ async function AboutPage() {
   return (
     <section>
       <h1 className="flex flex-wrap gap-2 sm:gap-x-6 items-center justify-center text-4xl sm:text-6xl font-bold leading-none tracking-wide">
-        We Hate
+        We Love
         <span className="bg-primary py-2 px-4 rounded-lg tracking-widest text-white">
           store
         </span>
