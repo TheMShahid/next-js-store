@@ -10,4 +10,11 @@ export const links: Links[] = [
   { href: "/favorites", label: "favorites" },
   { href: "/cart", label: "cart" },
   { href: "/orders", label: "orders" },
+  { href: "/admin/sales", label: "dashboard" },
+];
+
+export const adminLinks: Links[] = [
+  { href: "/admin/sales", label: "dashboard" },
+  { href: "/admin/products", label: "my products" },
+  { href: "/admin/products/create", label: "create product" },
 ];
