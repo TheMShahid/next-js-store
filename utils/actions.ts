@@ -152,7 +152,7 @@ export const updateProductAction = async (
         ...validatedFields,
       },
     });
-    revalidatePath(`admin/products/${productId}/edit`);
+    revalidatePath(`/admin/products/${productId}/edit`);
 
     return {
       message: "Product updated successfully",

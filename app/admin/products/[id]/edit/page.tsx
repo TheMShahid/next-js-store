@@ -13,6 +13,8 @@ import {
 
 async function EditProductPage({ params }: { params: { id: string } }) {
   const { id } = await params;
+  // console.log("edit product id", id);
+
   const product = await fetchAdminProductDetails(id);
   const { name, company, price, featured, description } = product;
 
