@@ -105,4 +105,4 @@ model Order {
   updatedAt DateTime @updatedAt
 }
 
-// need to
+// need to update and push to db
