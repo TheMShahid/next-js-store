@@ -11,9 +11,13 @@ import {
   updateProductImageAction,
 } from "@/utils/actions";
 
-async function EditProductPage({ params }: { params: { id: string } }) {
+type Props = {
+  params: Promise<{ id: string }>;
+};
+
+async function EditProductPage({ params }: Props) {
   const { id } = await params;
-  // console.log("edit product id", id);
+  console.log("edit product id", id);
 
   const product = await fetchAdminProductDetails(id);
   const { name, company, price, featured, description } = product;
